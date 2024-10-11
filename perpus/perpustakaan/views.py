@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 def buku(request):
-    judul = "Belajar Django"
+    judul = "Belajar Django", "Belajar Python", "Belajar Bootstrap"
     penulis = "Akbar Pradana"
     
     konteks = {
